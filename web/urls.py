@@ -8,5 +8,6 @@ urlpatterns = [
     re_path(r'^page/', views.page),
     re_path(r'^addcom/', views.addcom),
     re_path(r'^', views.page),
-
+    re_path(r'^/addcomm/ajax/', views.addcomm),
+    re_path(r'^/create_post/', views.create_post),
 ]

@@ -13,15 +13,15 @@ class CommentForm(ModelForm):
         widgets = {
                     'Comment_Text': Textarea(attrs={
                        'id': 'Comment_Text',
-                       'rows': 2,
-                       'cols': 100,
+                       'rows': 3,
+                       'cols': 50,
                        "maxlength": 150,
                        'required': True,
                        'placeholder': 'Ваш комментарий'}),
                     'Comment_Author': Textarea(attrs={
                        'id': 'Comment_Author',
-                       'rows': 2,
-                       'cols': 20,
+                       'rows': 1,
+                       'cols': 25,
                        "maxlength": 25,
                        'required': True,
                        'placeholder': 'Ваше имя'})}
